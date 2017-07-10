@@ -1,0 +1,61 @@
+body{
+    background: #ffffff;
+}
+html {
+    overflow-y: scroll;
+}
+iframe {
+    border: 1px solid black;
+    resize: both;
+    overflow: auto;
+    overflow:visible;
+    z-index: -1;
+}
+.templatesiframe{
+    overflow: scroll;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    -webkit-transform:scale(0.9);
+    -moz-transform-scale(0.9);
+    z-index: 1;
+}
+#collapsebtn,#collapsebtn2{
+    height: 20px;
+    width: 100px;
+    float: right;
+    font-size: small;
+}
+#togglesiteviewer1,#togglesiteviewer2{
+    font-size: small;
+}
+.togglebutton{
+    width: 100px;
+    margin-bottom: 2px;
+}
+.selecttemplate{
+    width: 200px;
+    float: right;
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+#imagetag{
+    width: 350px;
+}
+#fileToUpload{
+    width: 100%;
+}
+#errormessage{
+    min-width: 350px;
+    width: 350px;
+}
+.expand {
+    float: right;
+    height: 20em;
+    width: 100%;
+    opacity: 100;
+}
+.sitebutton{
+    height: 2em;
+    width: 8em;
+}

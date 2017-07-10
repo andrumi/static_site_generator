@@ -1,0 +1,211 @@
+form#upload {
+	background: #3ca3d5;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	width: 400px;
+}
+form#Form2 {
+    background: #3ca3d5;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+}
+form#upload fieldset {
+	border: none;
+	margin-bottom: 10px;
+}
+form#upload fieldset:last-of-type {
+	margin-bottom: 0;
+}
+
+form#upload legend {
+	color: #2a1743;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 1px #72bad5;
+}
+form#Form2 legend {
+    color: #2a1743;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 1px #72bad5;
+}
+/*form#upload > fieldset > legend:before {*/
+	/*content: "Step " counter(fieldsets) ": ";*/
+	/*counter-increment: fieldsets;*/
+/*}*/
+
+form#upload fieldset fieldset legend {
+	color: #111111;
+	font-size: 13px;
+	font-weight: normal;
+	padding-bottom: 0;
+}
+form#Form2 fieldset fieldset legend {
+    color: #111111;
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 0;
+}
+form#upload ol li{
+	background: #3ca3d5;
+	background: rgba(255,255,255,.3);
+	border-color: #e3ebc3;
+	border-color: rgba(255,255,255,.6);
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+}
+form#Form2 ol li {
+    background: #3ca3d5;
+    background: rgba(255,255,255,.3);
+    border-color: #e3ebc3;
+    border-color: rgba(255,255,255,.6);
+    border-style: solid;
+    border-width: 2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 30px;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+}
+form#upload ol ol li {
+	background: none;
+	border: none;
+	float: left;
+}
+
+form#upload label {
+	float: left;
+	font-size: 13px;
+	width: 110px;
+}
+form#upload fieldset fieldset label {
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+
+form#upload fieldset fieldset label:hover {
+	cursor: pointer;
+}
+form#upload input:not([type=radio]),
+form#upload textarea {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	outline: none;
+	padding: 5px;
+	width: 200px;
+}
+form#upload input:not([type=submit]):focus,
+form#upload textarea:focus {
+	background: #eaeaea;
+}
+form#upload input[type=radio] {
+	float: left;
+	margin-right: 5px;
+}
+form#upload button {
+	background: #4d7fcf;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
+form#upload button:hover {
+	background: #0f1625;
+	cursor: pointer;
+}
+/*/**/
+form#Form2 ol ol li {
+    background: none;
+    border: none;
+    float: left;
+}
+
+form#Form2 label {
+    float: left;
+    font-size: 13px;
+    width: 110px;
+}
+form#Form2 fieldset fieldset label {
+    background:none no-repeat left 50%;
+    line-height: 20px;
+    padding: 0 0 0 30px;
+    width: auto;
+}
+
+form#Form2 fieldset fieldset label:hover {
+    cursor: pointer;
+}
+form#Form2 input:not([type=radio]),
+form#Form2 textarea {
+    background: #ffffff;
+    border: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    font: italic 13px Georgia, "Times New Roman", Times, serif;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+}
+form#Form2 input:not([type=submit]):focus,
+form#Form2 textarea:focus {
+    background: #eaeaea;
+}
+form#Form2 input[type=radio] {
+    float: left;
+    padding: 0em 0em 0em 0em;
+}
+form#Form2 button {
+    background: #4d7fcf;
+    border: none;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    display: block;
+    font: 18px Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+    margin: auto;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #000000;
+    text-transform: uppercase;
+}
+form#Form2 button:hover {
+    background: #0f1625;
+    cursor: pointer;
+}
+
